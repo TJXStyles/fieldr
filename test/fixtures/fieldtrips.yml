@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  desc: MyText
+  city: MyString
+  Notes: MyText
+  student_cost: 1
+  adult_cost: 1
+  cost_note: MyText
+  venue_id: 
+
+two:
+  name: MyString
+  desc: MyText
+  city: MyString
+  Notes: MyText
+  student_cost: 1
+  adult_cost: 1
+  cost_note: MyText
+  venue_id: 

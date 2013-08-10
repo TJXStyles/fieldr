@@ -6,6 +6,12 @@ gem 'rails', '4.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+
+gem "font-awesome-rails"
+gem "haml-rails"
+gem 'simple_form'
+gem 'sorcery'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -30,6 +36,13 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :development do
+  gem 'better_errors'
+  gem "binding_of_caller"
+  gem 'pry-rails'
+  gem 'meta_request'
 end
 
 # Use ActiveModel has_secure_password
